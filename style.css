@@ -1,3 +1,43 @@
 body{
     
 }
+
+
+ul{
+display: flex;
+gap: 20px;
+list-style-type: none;
+}
+
+
+button{
+    background-color: #2968f0;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.header {
+    color: white;
+    background-color: #303145;
+}
+
+
+.top{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.image-box {
+    background-color: gray;
+}
+
+
+
+
