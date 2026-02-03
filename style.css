@@ -1,7 +1,6 @@
 body{
-    
-}
 
+}
 
 ul{
 display: flex;
@@ -9,11 +8,10 @@ gap: 20px;
 list-style-type: none;
 }
 
-
 button{
+    color: white;
     background-color: #2968f0;
 }
-
 
 a{
     color: white;
@@ -21,23 +19,74 @@ a{
 }
 
 
+.header{
+color: white;
+background-color: #303145;
+}
 
-.header {
+
+.links{
+   display: flex;
+   justify-content: flex-end; 
+}
+
+
+.image-box{
+    display: flex;
+    background-color: gray;
+    padding: 18px;
+    gap: 18px;
+    
+
+}
+
+
+.midle{
+
+}
+
+
+.quote{
+    display: flex;
+    background-color: gray;
+    padding: 18px;
+    gap: 18px; 
+}
+
+
+.the-quote{
+    font-size: ;
+}
+
+
+.bottom{
+
+}
+
+
+.lower{
+background-color: #2968f0;
+padding: 18px;
+color: white;
+}
+
+
+.last{
+    display: flex;
     color: white;
     background-color: #303145;
+    padding: 18px;
+    justify-content: center;
 }
 
 
-.top{
-    display: flex;
-    justify-content: flex-end;
+.top, .heading {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-
-.image-box {
-    background-color: gray;
+.code-title{
+display: flex;
+justify-content: center;
 }
-
-
-
-
