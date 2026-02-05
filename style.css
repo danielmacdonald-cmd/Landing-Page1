@@ -1,23 +1,40 @@
 body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.top, .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-under-code-box{
 
 }
 
 ul{
 display: flex;
+justify-content: center;
 gap: 20px;
 list-style-type: none;
 }
 
+
+
 button{
-    color: white;
-    background-color: #2968f0;
+color: white;
+        background-color: #2968f0;
+    width: 90px;
+    height: 26px;
+    border-radius: 7px;
 }
 
 a{
     color: white;
     text-decoration: none;
 }
-
 
 .header{
 color: white;
@@ -31,32 +48,36 @@ background-color: #303145;
 }
 
 
+
 .image-box{
     display: flex;
     background-color: gray;
-    padding: 18px;
+    padding: 70px;
     gap: 18px;
-    
-
 }
 
 
-.midle{
-
+.middle{
+        flex: 1;
 }
+
+ 
 
 
 .quote{
     display: flex;
-    background-color: gray;
+    background-color: lightgray;
     padding: 18px;
-    gap: 18px; 
+    gap: 18px;
+    flex-direction: column;
 }
+
 
 
 .the-quote{
-    font-size: ;
+    font-size: 30px;
 }
+
 
 
 .bottom{
@@ -64,11 +85,27 @@ background-color: #303145;
 }
 
 
+
 .lower{
-background-color: #2968f0;
-padding: 18px;
-color: white;
+    display: flex;
+    background-color: #2968f0;
+    padding: 18px;
+    color: white;
+    border-radius: 10px;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 700px;
 }
+
+
+
+.my-last-braincell{
+    display: flex;
+    justify-content: center;
+}
+
 
 
 .last{
@@ -80,13 +117,26 @@ color: white;
 }
 
 
-.top, .heading {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .code-title{
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
+
+
+
+.placeholder {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+
+
+.button2{
+    border: 2px solid white;
+
+}
+
