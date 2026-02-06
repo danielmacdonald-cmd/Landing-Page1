@@ -4,15 +4,26 @@ body{
     flex-direction: column;
 
 }
+
+
+
 .top, .heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 40px;
+    font-size: 20px;
 }
+
+
+
 
 .text-under-code-box{
 
 }
+
+
+
 
 ul{
 display: flex;
@@ -23,18 +34,27 @@ list-style-type: none;
 
 
 
+
+
 button{
-color: white;
-        background-color: #2968f0;
+    color: white;
+    background-color: #2968f0;
     width: 90px;
     height: 26px;
     border-radius: 7px;
 }
 
+
+
+
+
 a{
     color: white;
     text-decoration: none;
 }
+
+
+
 
 .header{
 color: white;
@@ -42,10 +62,16 @@ background-color: #303145;
 }
 
 
+
+
+
 .links{
    display: flex;
    justify-content: flex-end; 
 }
+
+
+
 
 
 
@@ -57,11 +83,17 @@ background-color: #303145;
 }
 
 
+
+
+
 .middle{
-        flex: 1;
+    flex: 1;
 }
 
  
+
+
+
 
 
 .quote{
@@ -70,19 +102,36 @@ background-color: #303145;
     padding: 18px;
     gap: 18px;
     flex-direction: column;
+  
 }
+
 
 
 
 .the-quote{
-    font-size: 30px;
+    width: 500px;
+    margin: 80px auto;
 }
 
 
 
-.bottom{
+
+
+.thor{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+
+
+
+
+  .bottom{
 
 }
+
+
+
 
 
 
@@ -101,10 +150,16 @@ background-color: #303145;
 
 
 
+
+
+
 .my-last-braincell{
     display: flex;
     justify-content: center;
 }
+
+
+
 
 
 
@@ -118,10 +173,16 @@ background-color: #303145;
 
 
 
+
+
+
 .code-title{
     display: flex;
     justify-content: center;
 }
+
+
+
 
 
 
@@ -132,6 +193,9 @@ background-color: #303145;
     border: 2px solid blue;
     border-radius: 10px;
 }
+
+
+
 
 
 
